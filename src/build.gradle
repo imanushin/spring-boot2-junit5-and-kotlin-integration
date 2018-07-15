@@ -23,7 +23,11 @@ targetCompatibility = 1.8
 
 dependencies {
     compile group: "org.springframework.boot", name: "spring-boot-starter-web", version: springBootVersion
+
+    compile group: "org.jetbrains.kotlin", name: "kotlin-reflect", version: kotlinVersion
     compile group: "org.jetbrains.kotlin", name: "kotlin-stdlib-jdk8", version: kotlinVersion
+
+    compile group:'io.github.microutils', name:'kotlin-logging', version: kotlinLoggingVersion
 
     testCompile group: "org.springframework.boot", name: "spring-boot-starter-test", version: springBootVersion
 
