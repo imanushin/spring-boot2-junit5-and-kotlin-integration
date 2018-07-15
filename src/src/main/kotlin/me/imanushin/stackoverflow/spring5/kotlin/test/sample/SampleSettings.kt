@@ -11,7 +11,7 @@ import org.springframework.stereotype.Component
 @Component
 @ConfigurationProperties("me.imanushin.stackoverflow.spring5.kotlin.test.sample")
 open class SampleSettings {
-    open var first: String? = null
+    open var first: Int? = null
 
-    open var second: String? = null
+    open var second: Int? = null
 }
